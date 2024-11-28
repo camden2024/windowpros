@@ -27,22 +27,36 @@ header {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding: 5px 8px;
+    
 
 }
 .contact {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding: 5px 8px;
+
 
 }
 .about {
     font-size: 20px;
     color: white;
     text-decoration: none;
+    padding: 5px 8px;
+
+
+}
+#option {
+    background-color: #565656;
+    border-radius: 15px
 
 }
 #option:hover {
     transform: scale(1.2);
+    background-color: #565656;
+    border-radius: 15px
+
 }
 
 
