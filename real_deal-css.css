@@ -67,6 +67,11 @@ h1.home_title {
     font-size: 40px;
     margin: 0 auto;
 }
+div.space_bar {
+    height: 10px;
+    width: 100%;
+    background-color: white;
+}
 
 #content_home {
     display: grid;
