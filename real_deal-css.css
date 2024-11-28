@@ -85,6 +85,11 @@ h1.home_contact {
     z-index: 1;
     color: white;
     align-self: center;
+    text-shadow: 
+    -1px -1px 0 black, /* Top-left */
+    1px -1px 0 black,  /* Top-right */
+    -1px 1px 0 black,  /* Bottom-left */
+    1px 1px 0 black;   /* Bottom-right */
 }
 h2.home_deal {
     grid-row: 2/3;
@@ -93,5 +98,10 @@ h2.home_deal {
     color: white;
     align-self: center;
     text-align: center;
+    text-shadow: 
+    -1px -1px 0 black, /* Top-left */
+    1px -1px 0 black,  /* Top-right */
+    -1px 1px 0 black,  /* Bottom-left */
+    1px 1px 0 black;   /* Bottom-right */
 }
 
