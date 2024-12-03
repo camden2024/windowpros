@@ -127,23 +127,23 @@ h1.home_contact {
     color: white;
     align-self: center;
     text-shadow: 
-    -1px -1px 0 black, /* Top-left */
-    1px -1px 0 black,  /* Top-right */
-    -1px 1px 0 black,  /* Bottom-left */
-    1px 1px 0 black;   /* Bottom-right */
+    -3px -3px 0 black, /* Top-left */
+    3px -3px 0 black,  /* Top-right */
+    -3px 3px 0 black,  /* Bottom-left */
+    3px 3px 0 black;   /* Bottom-right */
 }
 h2.home_deal {
     grid-row: 2/3;
     grid-column: -1/1;
     z-index: 1;
-    color: white;
+    color: rgb(83, 83, 83);
     align-self: center;
     text-align: center;
     text-shadow: 
-    -1px -1px 0 black, /* Top-left */
-    1px -1px 0 black,  /* Top-right */
-    -1px 1px 0 black,  /* Bottom-left */
-    1px 1px 0 black;   /* Bottom-right */
+    -1px -1px 0 white, /* Top-left */
+    1px -1px 0 white,  /* Top-right */
+    -1px 1px 0 white,  /* Bottom-left */
+    1px 1px 0 white;   /* Bottom-right */
 }
 
 
