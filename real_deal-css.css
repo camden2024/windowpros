@@ -84,6 +84,8 @@ img.facebook_logo {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
+    margin-top: 10px;
+
 }
 .lakeview {
     max-width: 100%;
