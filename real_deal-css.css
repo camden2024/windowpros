@@ -59,6 +59,24 @@ header {
 
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #aaaaaa;
+    align-items: end;
+}
+#copyright {
+    color: #565656;
+    text-align: left;
+}
+img.facebook_logo {
+    max-width: 50px;
+    margin-left: 0;
+    justify-self: end;
+    padding: 10px 10px;
+}
+
+
 
 
 
@@ -123,4 +141,5 @@ h2.home_deal {
     -1px 1px 0 black,  /* Bottom-left */
     1px 1px 0 black;   /* Bottom-right */
 }
+
 
