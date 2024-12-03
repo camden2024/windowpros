@@ -68,6 +68,8 @@ footer {
 #copyright {
     color: #565656;
     text-align: left;
+    align-self: center;
+    padding-left: 10px;
 }
 img.facebook_logo {
     max-width: 50px;
