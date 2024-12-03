@@ -143,3 +143,41 @@ h2.home_deal {
 }
 
 
+
+#content_services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+img.ocean {
+    max-width: 100%;
+    grid-column: -1/1;
+    grid-row: 1/3;
+}
+h2.services_description {
+    grid-row: 1/2;
+    z-index: 1;
+    color: white;
+    align-self: center;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0 black, /* Top-left */
+    1px -1px 0 black,  /* Top-right */
+    -1px 1px 0 black,  /* Bottom-left */
+    1px 1px 0 black;   /* Bottom-right */
+}
+h1.services_contact {
+    grid-row: 2/3;
+    z-index: 1;
+    color: white;
+    align-self: center;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0 black, /* Top-left */
+    1px -1px 0 black,  /* Top-right */
+    -1px 1px 0 black,  /* Bottom-left */
+    1px 1px 0 black;   /* Bottom-right */
+}
