@@ -166,7 +166,10 @@ ul.services_description {
     grid-row: 1/2;
     grid-column: 1/2;
     z-index: 1;
+    padding: 10px 30px;
     color: white;
+    background-color: #565656;
+    border-radius: 15px;
     align-self: center;
     text-align: left;
     font-size: 30px;
@@ -180,7 +183,10 @@ h1.services_contact {
     grid-row: 2/3;
     grid-column: 1/2;
     z-index: 1;
+    padding: 10px 15px;
+    border-radius: 15px;
     color: white;
+    background-color: #565656;
     align-self: center;
     text-align: center;
     text-shadow: 
