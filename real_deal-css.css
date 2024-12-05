@@ -59,6 +59,7 @@ header {
 
 }
 
+
 footer {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -66,7 +67,7 @@ footer {
     align-items: end;
 }
 #copyright {
-    color: white;
+    color: black;
     text-align: left;
     align-self: center;
     padding-left: 10px;
@@ -211,6 +212,7 @@ h1.services_contact {
     justify-items: center;
     align-items: center;
     background-color: #aaaaaa;
+    border-top: 10px solid white;
 }
 .contact_title {
     text-align: center;
@@ -218,7 +220,7 @@ h1.services_contact {
     grid-row: 1/2;
     z-index: 2;
     color: rgb(255, 255, 255);
-    font-size: 200px;
+    font-size: 150px;
     margin: 0 auto;
     background-color: black;
     border-radius: 25px;
@@ -228,20 +230,20 @@ h1.services_contact {
     text-align: center;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 100px;
+    font-size: 80px;
 }
 .contact_number {
     text-align: center;
     grid-column: 1/2;
     grid-row: 2/3;
-    font-size: 150px;
+    font-size: 100px;
 
 }
 .contact_deal {
     text-align: center;
     grid-column: 2/3;
     grid-row: 1/2;
-    font-size: 100px;
+    font-size: 80px;
 }
 .contact_facebook_logo {
     align-self: center;
