@@ -52,6 +52,28 @@ header {
     border-radius: 15px
 
 }
+#optiona {
+    background-color: #565656;
+    border-radius: 15px
+
+}
+#optiona:hover {
+    transform: scale(1.2);
+    background-color: #565656;
+    border-radius: 15px
+
+}
+#optionb {
+    background-color: #565656;
+    border-radius: 15px
+
+}
+#optionb:hover {
+    transform: scale(1.2);
+    background-color: #565656;
+    border-radius: 15px
+
+}
 #option:hover {
     transform: scale(1.2);
     background-color: #565656;
@@ -62,21 +84,29 @@ header {
 
 footer {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #aaaaaa;
     align-items: end;
 }
 #copyright {
     color: black;
-    text-align: left;
+    text-align: center;
     align-self: center;
-    padding-left: 10px;
+    grid-column: 1/2;
 }
 img.facebook_logo {
     max-width: 50px;
-    margin-left: 0;
-    justify-self: end;
-    padding: 10px 10px;
+    justify-self: center;
+    align-self: center;
+    grid-column: 3/4;
+    margin: 0 50%;
+}
+#site_plan_link {
+    color: black;
+    grid-column: 2/3;
+    text-align: center;
+    align-self: center;
+    grid-row: 1/2;
 }
 
 
@@ -88,7 +118,6 @@ img.facebook_logo {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
     margin-top: 10px;
-
 }
 .lakeview {
     max-width: 100%;
@@ -103,6 +132,10 @@ h1.home_title {
     color: rgb(255, 255, 255);
     font-size: 40px;
     margin: 0 auto;
+    background-color: black;
+    padding: 10px 30px;
+    border-radius: 15px;
+
 }
 div.space_bar {
     height: 10px;
