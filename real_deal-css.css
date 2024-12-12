@@ -87,6 +87,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #aaaaaa;
     align-items: end;
+    padding: 5px 0px;
 }
 #copyright {
     color: black;
